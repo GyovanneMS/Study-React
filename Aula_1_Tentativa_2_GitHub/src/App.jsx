@@ -1,6 +1,14 @@
+import { RepositoryList } from './components/RepositoryList'
+import { Counter } from './components/Counter'
+
 import './styles/global.scss'
+import './styles/repositories'
 
 
 export function App(){
-    return <h1>Hello rectJS AAAAAAAAAAAAAAAAAA</h1>
+    return (
+        <>
+            <RepositoryList />
+        </>
+    )
 }
